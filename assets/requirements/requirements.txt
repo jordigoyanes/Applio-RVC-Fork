@@ -16,8 +16,7 @@ nltk
 numba; sys_platform == 'linux'
 numba==0.56.4; sys_platform == 'win32'
 numpy==1.23.5
-onnxruntime
-onnxruntime_gpu==1.15.1
+optimum[onnxruntime-gpu]
 opencv_python==4.8.0.74
 opencv_python_headless==4.8.0.74
 praat-parselmouth==0.4.2
@@ -28,7 +27,7 @@ sounddevice==0.4.6
 soundfile==0.12.1
 ffmpeg-python>=0.2.0
 tensorboard==2.13.0
-torch==2.0.0
+torch
 torchcrepe==0.0.21
 torchaudio==2.0.1
 torchvision==0.15.1
