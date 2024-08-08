@@ -1,4 +1,4 @@
-setuptools
+setuptools=69.4.2
 fairseq==0.12.2
 wheel
 pedalboard
